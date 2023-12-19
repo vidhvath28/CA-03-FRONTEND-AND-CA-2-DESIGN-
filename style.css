@@ -1,0 +1,20 @@
+body {
+    
+    background-color: rgb(132, 169, 194);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.col-md-3:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.not-found {
+    font-size: 20px;
+    color: rgb(0, 110, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
